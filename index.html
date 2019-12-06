@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class=" navbar navbar-light bg-secondary ">
+        <a class="navbar-brand text-white" href="#">
+            <img src="IMG/img.png" width="30" height="30" class="d-inline-block align-top" alt=""> Agata Maciulevič
+        </a>
+    </nav>
+
+    <!--HEADER -->
+    <header>
+        <div class="container-fluid">
+            <div class="text-center">
+                <div class="header-fonas">
+                    <img src="IMG/gamer.png" class="rounded-circle mb-4 " alt="">
+                    <h1 class="text-white">Agata Maciulevič</h1>
+                    <p class="text-white">ŽP18-2</p>
+                    <p class="text-white">maciulewiczagata@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="col text-center">
+            <h2>GAME</h2>
+            <hr>
+        </div>
+
+        <div class=" text-center mb-4">
+            <canvas id="myCanvas" width="500" height="320"> </canvas>
+        </div>
+
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-outline-primary" onclick="ShapeChange()">Shape</button>
+            <button type="button" class="btn btn-outline-secondary" onclick="ColorChanger()">Color</button>
+            <button type="button" class="btn btn-outline-success" onclick="ColorChange()">Color</button>
+        </div>
+
+        <div class="col text-center ">
+            <hr>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="page-footer font-small bg-secondary ">
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-facebook-f text-white"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-twitter text-white"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                        <i class="fab fa-google-plus-g text-white"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="fab fa-linkedin-in text-white"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1">
+                        <i class="fab fa-dribbble text-white"> </i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright text-center py-3 ">
+            <p>Copyright &copy; 2019, Agata Maciulevič</p>
+        </div>
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>

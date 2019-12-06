@@ -1,0 +1,15 @@
+.header-fonas {
+    background-image: url(../IMG/bg_head.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*drobes stilius*/
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
